@@ -1,0 +1,162 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  padding-top: 76px;
+}
+.custom-placeholder::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+  opacity: 1 !important;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+  background-color: #1a1a1a !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 76px;
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-link-custom {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  background-color: rgba(255, 68, 68, 0.1);
+  color: #ff4444 !important;
+}
+
+/* Footer Styles */
+.footer-custom {
+  background-color: #1a1a1a;
+  border-top: 1px solid #2a2a2a;
+}
+
+.footer-custom .social-links a {
+  transition: all 0.3s ease;
+}
+
+.footer-custom .social-links a:hover {
+  color: #ff2222 !important;
+  transform: translateY(-3px);
+}
+
+/* Section Styles */
+.home-section,
+.education-section,
+.skills-section,
+.projects-section,
+.contact-section {
+  padding: 80px 0;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Form Styles */
+.form-control {
+  background-color: #2a2a2a !important;
+  border: 1px solid #3a3a3a;
+  color: #ffffff !important;
+}
+
+.form-control:focus {
+  background-color: #2a2a2a !important;
+  border-color: #ff4444;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 68, 68, 0.25);
+}
+
+/* Progress Bar Styles */
+.progress {
+  background-color: #2a2a2a;
+  height: 10px;
+}
+
+.progress-bar {
+  background-color: #ff4444;
+}
+
+/* Badge Styles */
+.badge {
+  background-color: #ff4444 !important;
+  color: #ffffff !important;
+}
+
+/* Button Styles */
+.btn-danger {
+  background-color: #ff4444;
+  border-color: #ff4444;
+}
+
+.btn-danger:hover {
+  background-color: #ff2222;
+  border-color: #ff2222;
+}
+
+/* Social Links */
+.social-links a {
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff2222 !important;
+}
+
+/* Profile Image Container */
+.profile-image-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .home-section,
+  .education-section,
+  .skills-section,
+  .projects-section,
+  .contact-section {
+    padding: 40px 0;
+  }
+  
+  .profile-image-container {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .navbar-custom {
+    height: auto;
+  }
+
+  .nav-link-custom {
+    padding: 0.5rem 1rem !important;
+  }
+}
