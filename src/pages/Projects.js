@@ -11,8 +11,8 @@ const Projects = () => {
       description: "A personal portfolio website highlighting my skills and projects.",
       technologies: ["HTML", "CSS", "JavaScript", "React.js", "Remix Icons", "Responsive Web Design"],
       image: "https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk.jpg",
-      github: "https://github.com",
-      live: "https://example.com"
+      github: "https://github.com/pavanivudatha/PavaniPortFolio",
+      live: " https://pavanivudatha.github.io/PavaniPortFolio/"
     },
     {
       title: "Amazon Clone - E-commerce Web Application",
