@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PavaniPortFolio/static/css/main.bb8cde9e.css",
+    "main.js": "/PavaniPortFolio/static/js/main.2173c91e.js",
+    "static/js/453.1407b060.chunk.js": "/PavaniPortFolio/static/js/453.1407b060.chunk.js",
+    "static/media/about-bg.jpg": "/PavaniPortFolio/static/media/about-bg.8187ca899295e07f124d.jpg",
+    "index.html": "/PavaniPortFolio/index.html",
+    "main.bb8cde9e.css.map": "/PavaniPortFolio/static/css/main.bb8cde9e.css.map",
+    "main.2173c91e.js.map": "/PavaniPortFolio/static/js/main.2173c91e.js.map",
+    "453.1407b060.chunk.js.map": "/PavaniPortFolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb8cde9e.css",
+    "static/js/main.2173c91e.js"
+  ]
+}
