@@ -19,7 +19,7 @@ function App() {
         <NavigationBar />
         <main className="flex-grow-1">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/PavaniPortFolio" element={<Home />} />
             <Route path="/education" element={<Education />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
