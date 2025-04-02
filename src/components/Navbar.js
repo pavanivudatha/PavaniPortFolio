@@ -8,13 +8,13 @@ const NavigationBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="navbar-custom">
       <Container fluid className="px-5">
-        <Navbar.Brand as={Link} to="/" className="brand-text">
+        <Navbar.Brand as={Link} to="/PavaniPortFolio" className="brand-text">
           <span className="text-danger">P</span>avani's<span className="text-danger"> P</span>ortfolio
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/" className="nav-link-custom">
+            <Nav.Link as={Link} to="/PavaniPortFolio" className="nav-link-custom">
               <FontAwesomeIcon icon={faHome} className="me-1" /> Home
             </Nav.Link>
             <Nav.Link as={Link} to="/education" className="nav-link-custom">
@@ -29,7 +29,7 @@ const NavigationBar = () => {
             <Nav.Link as={Link} to="/contact" className="nav-link-custom">
               <FontAwesomeIcon icon={faEnvelope} className="me-1" /> Contact
             </Nav.Link>
-            <Nav.Link href="https://drive.google.com/file/d/1VevgzDHczArFVp51YKuO81tEHc_VnhXa/view?usp=sharing" download className="nav-link-custom">
+            <Nav.Link href="https://drive.google.com/file/d/1nJsW_kalnGnnL9RzoXPYfp8mIquMvf8R/view?usp=drive_link" download className="nav-link-custom">
               <FontAwesomeIcon icon={faFileDownload} className="me-1" /> Resume
             </Nav.Link>
           </Nav>
