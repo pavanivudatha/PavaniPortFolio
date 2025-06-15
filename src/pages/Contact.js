@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button,Alert } from 'react-bootstrap';
 import '../App.css';
 
 const Contact = () => {
@@ -12,6 +12,7 @@ const Contact = () => {
     phone: "",
     message: ""
   });
+  const [submitted, setSubmitted] = useState(false); 
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -20,6 +21,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
+    setSubmitted(true); // ✅ Show message after submit
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      message: ""
+    }); // Optionally reset the form
   };
 
   return (
@@ -46,7 +54,13 @@ const Contact = () => {
             </a>
           </div>
         </div>
+        <div className="w-100 w-md-50">
         <Form className="bg-dark p-4 rounded w-100 w-md-50" onSubmit={handleSubmit}>
+          {submitted && (
+              <Alert variant="success" onClose={() => setSubmitted(false)} dismissible>
+                ✅ Your message has been submitted successfully!
+              </Alert>
+            )}
           <Form.Group className="mb-4">
             <Form.Control
               type="text"
@@ -100,6 +114,7 @@ const Contact = () => {
             Send Message
           </Button>
         </Form>
+      </div>
       </div>
     </footer>
   );

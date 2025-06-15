@@ -29,6 +29,14 @@ const Projects = () => {
       image: "https://www.ismartrecruit.com/upload/blog/main_image/recruitment_chatbot_definition_features_and_benefits.webp",
       github: "https://github.com/pavanivudatha/ChatBot",
       live: "https://pavanivudatha.github.io/ChatBot/"
+    },
+    {
+      title: "Gold Price Predictor",
+      description: "A web application that predicts future gold prices using historical data and Bayesian modeling",
+      technologies: ["Flask", "React.js", "Plotly","time-series forecasting model(prophet)","API integration(GoldAPI)", "React.js","Bootstrap", "HTML","CSS"],
+      image: "https://images.herzindagi.info/her-zindagi-english/images/2024/10/30/article/image/Main-(39)-1730273079745.jpg",
+      github: "https://github.com/pavanivudatha/GoldPricePred",
+      live: "https://gold-price-pred.vercel.app/"
     }
   ];
 
