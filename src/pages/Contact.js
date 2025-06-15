@@ -58,7 +58,11 @@ const Contact = () => {
         <Form className="bg-dark p-4 rounded w-100 w-md-50" onSubmit={handleSubmit}>
           {submitted && (
               <Alert variant="success" onClose={() => setSubmitted(false)} dismissible>
+<<<<<<< HEAD
                 ✅ Your message has been submitted successfully to pavani!
+=======
+                ✅ Your message has been submitted successfully!
+>>>>>>> dfffede1b0f588a9d8a6149b6795cb2731bd489d
               </Alert>
             )}
           <Form.Group className="mb-4">
