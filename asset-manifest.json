@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PavaniPortFolio/static/css/main.bb8cde9e.css",
-    "main.js": "/PavaniPortFolio/static/js/main.eac59626.js",
+    "main.js": "/PavaniPortFolio/static/js/main.8e190c3d.js",
     "static/js/453.1407b060.chunk.js": "/PavaniPortFolio/static/js/453.1407b060.chunk.js",
     "static/media/about-bg.jpg": "/PavaniPortFolio/static/media/about-bg.8187ca899295e07f124d.jpg",
     "static/media/PavaniVudatha_Resume (7).pdf": "/PavaniPortFolio/static/media/PavaniVudatha_Resume (7).3183be08d261c63815f6.pdf",
     "index.html": "/PavaniPortFolio/index.html",
     "main.bb8cde9e.css.map": "/PavaniPortFolio/static/css/main.bb8cde9e.css.map",
-    "main.eac59626.js.map": "/PavaniPortFolio/static/js/main.eac59626.js.map",
+    "main.8e190c3d.js.map": "/PavaniPortFolio/static/js/main.8e190c3d.js.map",
     "453.1407b060.chunk.js.map": "/PavaniPortFolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb8cde9e.css",
-    "static/js/main.eac59626.js"
+    "static/js/main.8e190c3d.js"
   ]
 }
