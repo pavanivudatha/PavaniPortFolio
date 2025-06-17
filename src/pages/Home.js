@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import aboutBg from '../assets/about-bg.jpg';
 import resume from '../assets/PavaniVudatha_Resume (7).pdf'; 
 
@@ -51,7 +52,11 @@ const Home = () => {
               With a keen eye for detail and a user-first approach, I strive to build intuitive and responsive web solutions. 
               Excited to keep learning, growing, and contributing to the world of technology!
             </p>
-            <Button variant="danger" className="mt-3 m-3">More About Me</Button>
+            <Link to="/education">
+            <Button variant="danger" className="mt-3 m-3">
+            More About Me
+            </Button>
+            </Link>
             <Button variant="danger" href={resume} className="mt-3 m-3" download>Resume</Button>
           </Col>
         </Row>
