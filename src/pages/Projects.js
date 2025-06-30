@@ -37,6 +37,14 @@ const Projects = () => {
       image: "https://images.herzindagi.info/her-zindagi-english/images/2024/10/30/article/image/Main-(39)-1730273079745.jpg",
       github: "https://github.com/pavanivudatha/GoldPricePred",
       live: "https://gold-price-pred.vercel.app/"
+    },
+    {
+      title: "AI Text-to-Image Generator",
+      description: "Developed a full-stack web application that converts natural language prompts into AI-generated images using OpenAI's DALL-E model.",
+      technologies: ["React.js", "Node.js", "Express.js", "OpenAI API",' Cloudinary', "Styled Components","Axios"],
+      image: "https://pplx-res.cloudinary.com/image/fetch/s--kZuOOUL4--/t_limit/https://hotpot.ai/images/site/blog/dall_e_2.webp",
+      github: "https://github.com/pavanivudatha/ai-text-to-image-generator",
+      live: "https://ai-text-to-image-generator-seven.vercel.app/"
     }
   ];
 
